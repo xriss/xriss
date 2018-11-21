@@ -1,0 +1,9 @@
+cd `dirname $0`
+
+source settings
+
+echo
+echo http://0.0.0.0:8000
+echo
+
+./node_modules/.bin/ecstatic --root=../docs
