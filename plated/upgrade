@@ -1,11 +1,5 @@
 cd `dirname $0`
 
-echo " Installing and updating plated, if this fails please make sure node is installed "
-
-npm upgrade
-
-echo " The version of Plated installed is... :"
-
-npm list plated
-
+npm install --no-save
+npm update --no-save
 
