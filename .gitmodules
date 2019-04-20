@@ -1,3 +1,4 @@
-[submodule "plated/output"]
+[submodule "docs"]
+	branch = master
 	path = plated/output
 	url = git@github.com:xriss/xriss.github.io.git
