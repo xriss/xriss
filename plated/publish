@@ -8,7 +8,14 @@ echo
 
 ./build
 
-git add ..
+cd ../docs
+git add .
+git commit -m"publish bump"
+git pull
+git push
+
+cd ..
+git add .
 git commit -m"publish bump"
 git pull
 git push
