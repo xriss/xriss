@@ -13,9 +13,12 @@ git add .
 git commit -m"publish bump"
 git pull
 git push
+git status
+
 
 cd ..
 git add .
 git commit -m"publish bump"
 git pull
 git push
+git status
