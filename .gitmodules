@@ -1,0 +1,3 @@
+[submodule "plated/output"]
+	path = plated/output
+	url = git@github.com:xriss/xriss.github.io.git

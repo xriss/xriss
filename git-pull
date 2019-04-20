@@ -1,7 +1,7 @@
 cd `dirname $0`
 
-git pull origin master
-git checkout master
+git pull origin plated
+git checkout plated
 
 git submodule update --init --reference .
 
