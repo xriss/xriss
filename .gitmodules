@@ -1,8 +1,0 @@
-[submodule "xriss.github.io"]
-	path = docs
-	url = git@github.com:xriss/xriss.github.io.git
-	branch = master
-[submodule "docs"]
-	path = docs
-	url = git@github.com:xriss/xriss.github.io.git
-	branch = master
