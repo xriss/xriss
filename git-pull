@@ -1,10 +1,6 @@
 cd `dirname $0`
 
-git pull origin plated
-git checkout plated
-
-git submodule update --init --reference .
-
-git pull --recurse-submodules && git submodule update --recursive --remote
+git pull origin main
+git checkout main
 
 plated/upgrade
